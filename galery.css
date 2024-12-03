@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Oswald:wght@400;700&display=swap');
+
+.galery{
+    display: inline-block;
+    line-height: 0;
+    font-size: 600px;
+    margin: 5%;
+}
+
+.galery img {
+    vertical-align: middle;
+    max-width: 40%;
+    max-height: 40%;
+    object-fit: cover;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.galery img:hover {
+    max-width: 40%;
+    max-height: 40%;
+    transform: scale(1.2);
+    opacity: 0.9;
+}
+
+.galery-superbikes-heading{
+    font-size: 5rem;
+    font-weight: bold;
+    background: linear-gradient(to right, #9a9797, #f67b7b);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+
+.galery-tourerbikes-heading{
+    font-size: 5rem;
+    font-weight: bold;
+    background: linear-gradient(to right, #9a9797, #55ace3);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+}

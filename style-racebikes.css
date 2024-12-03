@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Oswald:wght@400;700&display=swap');
+
+
+body {
+    padding: 3%;
+    margin: 2%;
+
+    background-image: url("carbon.png");
+
+}
+
+.heading {
+    font-size: 2.4rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.logo-img {
+    float: right;
+    max-height: 60%;
+    max-width: 60%;
+}
+
+.img-racebikesite {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.img-racebikesite img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.hersteller-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.hersteller-list li {
+    margin: 0 50px;
+}
+
+.hersteller-link {
+    font-size: 3rem;
+    text-decoration: none;
+    color: #e82c2c;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.hersteller-link:hover {
+    color: #b60b0b;
+    transform: scale(1.05);
+}
+
+.hersteller-link:focus {
+    outline: none;
+}
